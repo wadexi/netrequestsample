@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.seele.com.netclientapp.MainActivity">
+
+  <Button
+      android:id="@+id/simple_form_head"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="simple表单head请求"/>
+
+  <Button
+      android:id="@+id/simple_form_get"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="simple表单get请求"/>
+
+  <Button
+      android:id="@+id/simple_form_post"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="simple表单post请求"/>
+
+
+  <Button
+      android:id="@+id/simple_form_submit_file"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="表单post上传文件"/>
+
+
+  <Button
+      android:id="@+id/simple_form_down_file"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="表单post提交下载文件"/>
+
+
+
+
+</LinearLayout>
